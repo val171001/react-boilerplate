@@ -23,6 +23,9 @@ module.exports = {
     'react',
     'jest', 
   ],
+  settings: {
+    'import/resolver': 'webpack'
+  },
   rules: {
   },
 };
