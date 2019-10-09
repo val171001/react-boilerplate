@@ -17,16 +17,16 @@ module.exports = {
     rules: [
       { test: /\.css$/,
         use: [
-          { loader: "style-loader" },
-          { loader: "css-loader" }
-        ]
+          { loader: 'style-loader' },
+          { loader: 'css-loader' },
+        ],
       },
       {
         test: /\.jsx?$/,
         exclude: /node_modules/,
-        use: "babel-loader"
-      }
-    ]
+        use: 'babel-loader',
+      },
+    ],
   },
   resolve: {
     extensions: ['.js', '.jsx'],

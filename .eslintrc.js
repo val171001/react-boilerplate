@@ -6,6 +6,7 @@ module.exports = {
   },
   extends: [
     'airbnb',
+    'plugin:jest/recommended',
   ],
   globals: {
     Atomics: 'readonly',
@@ -20,6 +21,7 @@ module.exports = {
   },
   plugins: [
     'react',
+    'jest', 
   ],
   rules: {
   },
